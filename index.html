@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Design Incase : Industrial Designer</title>
+<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Teko:700,300" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<link href="css/default.css" rel="stylesheet" type="text/css">
+	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    
+    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+    
+
+	
+	
+</head>
+
+<body>
+	<div class="bgfrnt">
+		<div class="bannerpos1">
+			<div class="border">Designincase</div>
+		</div>
+		<div class="bannerpos2">
+			<div class="border">Industrial Designer</div>
+		</div>		
+		<div class="bannerpos3">
+			
+			<button class="button5">
+				<a href="https://www.shapeways.com/shops/designincase">
+					<h5>Shapeways</h5>
+				</a>
+			</button>
+			<button class="button5">
+				<a href="https://cults3d.com/en/users/Designincase/creations">
+				<h5>Cults3D</h5></a>
+			</button>
+			<button class="button5">
+				<a href="https://www.etsy.com/shop/Designincase">
+				<h5>ETSY</h5></a>
+		</button>		
+		</div>
+		
+	</div>
+
+	
+ <!---
+    <nav class="text-center">
+
+		<a name="top"></a>  
+		<ul>
+			<li> 
+				<a href="store.html" title=""> Store </a>
+			</li> 
+			<li> 
+				<a href="projects.html" title=""> Projects </a>
+			</li>      
+			<li> 
+				<a href="videolog.html" title=""> Videos</a>
+			</li> 	
+			<li> 
+				<a href="resources.html" title=""> resources </a>
+			</li> 
+		</ul>
+  	</nav>	
+--->
+	
+	
+    <nav class="text-centerft">
+			<div class="icons">
+				<a href="https://www.facebook.com/Designincase/">
+				<img src ="img/socialmedia/f_logo_RGB-Blue_114.png" style="width:30x;height:30px"></a>
+				<a href="https://www.instagram.com/designincase">
+				<img src ="img/socialmedia/Instagram_Glyph_Gradient_RGB.png" style="width:30px;height:30px;"></a>
+				<a href="https://twitter.com/DesignINcase">
+				<img src ="img/socialmedia/Twitter social icons - circle - blue.png" style="width:30px;height:30px;"></a>
+				<a href="https://www.youtube.com/c/DesignIncase">	
+				<img src ="img/socialmedia/youtube_social_icon_red.png" style="width:30px;height:30px;"></a>
+			</div>
+  	</nav>			
+
+
+
+
+
+</body>
+	
+
+		
+	
+
+</html>
